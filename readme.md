@@ -5,7 +5,7 @@
 # BoxRévision
 
 ## Gestionnaire de révision
-Cliquer sur la baguette magique pour avoir un apercu de l'application.
+Cliquez sur la baguette magique pour avoir un apercu de l'application.
 
 
 ## Technos :
