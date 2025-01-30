@@ -10,6 +10,7 @@
 
   body #root {
     width: 320px;
+    margin-left: 0px;
   }
 
   body .agenda,
