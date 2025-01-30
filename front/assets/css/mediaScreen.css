@@ -19,6 +19,11 @@
   body .agenda__container__header {
     width: 100%;
   }
+
+  body .accueil {
+    margin: 0px 0px;
+  }
+
   body .cemetary__body__categories .tdName {
     font-size: 13px;
   }
@@ -34,7 +39,8 @@
     word-break: break-word;
     text-align: center;
   }
-  body #formSearchBar input{
+
+  body #formSearchBar input {
     width: 197px;
   }
 
