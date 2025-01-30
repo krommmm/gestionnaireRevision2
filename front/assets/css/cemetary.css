@@ -62,6 +62,7 @@
 
 /***cemetary__body***/
 .cemetary__body {
+    width: 650px;
     margin-top: 25px;
     display: flex;
     align-items: center;
@@ -103,6 +104,7 @@
 
 .cemetary__body__categories .tdName {
     color: gold;
+    word-break: break-word;
 }
 
 .cemetary__body__categories .tdStep {
@@ -136,8 +138,9 @@
 .cemetary__body__pagination__container {
     display: flex;
 }
-.cemetary__body__pagination__container--numeros{
-    display:flex;
+
+.cemetary__body__pagination__container--numeros {
+    display: flex;
 }
 
 .cemetary__body__pagination__container--square {
@@ -170,6 +173,7 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
-.cemetary__body__pagination__container a{
-    text-decoration:none;
+
+.cemetary__body__pagination__container a {
+    text-decoration: none;
 }
