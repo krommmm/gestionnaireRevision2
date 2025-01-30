@@ -15,7 +15,7 @@ export class CemetaryController extends BaseController {
 
     init() {
         this.isCemetaryNeeded();
-        this.mCards.addListener(() => this.isCemetaryNeeded());
+        this.mCards.addListener(() => this.isCemetaryNeeded()); 
         this.bindEvents();
     }
 

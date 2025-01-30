@@ -1,7 +1,3 @@
-
-
-
-
 # BoxRévision
 
 ## Gestionnaire de révision
@@ -31,6 +27,3 @@ Tests avec vitest<br>
 
 ## URL :
 > https://boxrevision.netlify.app/
-
-
-

@@ -84,7 +84,6 @@ export class MDate {
         return delayDateDMY;
     }
 
-
     getDateMs(date) {
         return date.getTime();
     }

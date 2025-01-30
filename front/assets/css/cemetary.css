@@ -105,6 +105,7 @@
 .cemetary__body__categories .tdName {
     color: gold;
     word-break: break-word;
+    font-size: 12px;
 }
 
 .cemetary__body__categories .tdStep {
