@@ -14,28 +14,32 @@ header {
     padding-left: 15px;
     padding-right: 35px;
     width: 261px;
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
 .text-limiter {
-    width: 100px; 
+    width: 100px;
     display: block;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-  }
+}
 
 input:focus {
     outline: none;
 }
 
-#formSearchBar button {
+#formSearchBar .glass {
     background-color: #191937;
     color: white;
     border: none;
     cursor: pointer;
     position: absolute;
     top: 9px;
-    right: 20px;
+    right: 51px;
+}
+.magicStorage{
+    margin-left: 15px;
 }
