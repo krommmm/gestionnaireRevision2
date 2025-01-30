@@ -1,0 +1,41 @@
+header {
+    padding: 15px;
+}
+
+#formSearchBar {
+    position: relative;
+}
+
+#formSearchBar input {
+    background-color: #191937;
+    color: rgb(138, 142, 187);
+    height: 35px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 35px;
+    width: 261px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+.text-limiter {
+    width: 100px; 
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+input:focus {
+    outline: none;
+}
+
+#formSearchBar button {
+    background-color: #191937;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 9px;
+    right: 20px;
+}
