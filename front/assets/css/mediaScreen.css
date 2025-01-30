@@ -1,0 +1,41 @@
+
+@media screen and (max-width:1180px) {
+
+    body .presentation,
+    body .infoSupp {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width:680px) {
+  
+    body #root {
+      width: 320px;
+    }
+  
+    body .agenda,
+    body .cemetary,
+    body .cemetary__body,
+    body .agenda__container,
+    body .agenda__container__header {
+      width: 100%;
+    }
+  
+    body .agenda__container__header__day {
+      width: 31px;
+    }
+  
+    body .agenda__container__header__day--day {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  
+    body .agenda__container__header__day .date {
+      display: none;
+    }
+  
+    body .modal {
+      min-width: auto;
+    }
+  }
