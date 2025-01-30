@@ -43,7 +43,7 @@ export class PagesUI {
         const agenda__container = document.createElement("section");
         agenda__container.className = "agenda__container fondColor";
 
-        const agenda__container__header = document.createElement("agenda__container__header");
+        const agenda__container__header = document.createElement("div");
         agenda__container__header.className = "agenda__container__header entreColor";
 
         const days = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"];
@@ -240,38 +240,6 @@ export class PagesUI {
 
             tbody.appendChild(tr);
         }
-        // for (let i = 0; i < ghostsCards.length; i++) {
-        //     const tr = document.createElement("tr");
-        //     tr.className = isTableFront ? "tableBack" : "tableFront";
-        //     isTableFront = !isTableFront;
-        //     const tdStep = document.createElement("td");
-        //     tdStep.className = "tdStep";
-        //     tdStep.textContent = ghostsCards[i].step;
-        //     tr.appendChild(tdStep);
-
-        //     const tdImg = document.createElement("td");
-        //     const img = document.createElement("img");
-        //     img.src = `/front/assets/pictures/icons/${ghostsCards[i].matiere}.png`;
-        //     tdImg.appendChild(img);
-        //     tr.appendChild(tdImg);
-
-        //     const tdName = document.createElement("td");
-        //     tdName.textContent = ghostsCards[i].cardName;
-        //     tdName.className = "tdName";
-        //     tr.appendChild(tdName);
-
-        //     const tdDate = document.createElement("td");
-        //     tdDate.textContent = `${ghostsCards[i].date[0]} ${this.monthNames[ghostsCards[i].date[1]]}  ${ghostsCards[i].date[2]}`;
-        //     tr.appendChild(tdDate);
-
-        //     const tdIcons = document.createElement("td");
-        //     tdIcons.className = "tableIcons";
-        //     tdIcons.setAttribute("data-id", ghostsCards[i].id);
-        //     tdIcons.innerHTML = `<i class="fa-regular fa-trash-can deleteGhostCard"></i><i class="fa-solid fa-arrows-rotate resetGhostCard"></i>`;
-        //     tr.appendChild(tdIcons);
-
-        //     tbody.appendChild(tr);
-        // }
         table.appendChild(tbody);
 
         // Pagination

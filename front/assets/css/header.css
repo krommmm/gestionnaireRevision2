@@ -42,4 +42,5 @@ input:focus {
 }
 .magicStorage{
     margin-left: 15px;
+    cursor:pointer;
 }

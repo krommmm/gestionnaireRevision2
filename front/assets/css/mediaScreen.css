@@ -34,6 +34,9 @@
     word-break: break-word;
     text-align: center;
   }
+  body #formSearchBar input{
+    width: 197px;
+  }
 
   body .agenda__container__header__day .date {
     display: none;
