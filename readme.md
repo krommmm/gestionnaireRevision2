@@ -18,7 +18,8 @@ Cliquez sur la baguette magique pour avoir un apercu de l'application.
 Box Révision est une application qui permet d'enregistrer des "cartes" et de planifier des révisions suivant le principe de la répétition espacée.<br>
 Le HTML utilise les balises sémantiques.<br>
 Le CSS utilise le modèle BEM(Block, Element, Modifier).<br>
-Le JS utilise le paradigme POO SOLID, dans un environement vanilla.
+Le JS utilise le paradigme POO SOLID, dans un environement vanilla.<br>
+Tests avec vitest<br>
 
 ## Fonctionnalités:
 . Pages web dynamiques<br>
