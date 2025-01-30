@@ -19,6 +19,9 @@
   body .agenda__container__header {
     width: 100%;
   }
+  body .cemetary__body__categories .tdName {
+    font-size: 13px;
+  }
 
   body .agenda__container__header__day {
     width: 45px;
