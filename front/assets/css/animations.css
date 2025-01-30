@@ -1,0 +1,9 @@
+@keyframes descendDuCiel {
+	0% {
+		transform: translateY(-300px);
+	}
+
+	100% {
+		transform: translateY(-200px);
+	}
+}

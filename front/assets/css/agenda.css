@@ -1,0 +1,107 @@
+.agenda__container {
+    width: 650px;
+}
+
+/*** AGENDA HEADER ***/
+.agenda__container__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.agenda__container__header__day {
+    cursor: pointer;
+    padding: 5px 0px;
+    color: white;
+    width: 86px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.agenda__container__header .date {
+    font-size: 8px;
+}
+
+.agenda__container__header .cardsLength {
+    position: absolute;
+    top: -25px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid red;
+    padding: 3px;
+    font-size: 9px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 68px;
+    z-index: 9999;
+    background-color: red;
+    border-radius: 3px;
+}
+
+/*** AGENDA main ***/
+.agenda__container__main {
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.agenda__container__main__cards {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.agenda__container__main__cards li {
+    border-radius: 3px;
+    background-color: #11112a;
+    padding: 10px;
+    margin: 6px;
+    display: flex;
+    height: fit-content;
+    cursor:pointer;
+}
+
+.agenda__container__main__cards li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    cursor:pointer;
+}
+
+.agenda__container__main__cards li p {
+    font-size: 12px;
+    max-width: 100px;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    cursor:pointer;
+}
+
+/*** COLORS ***/
+.fondColor {
+    background-color: rgb(31, 31, 65);
+}
+
+.backColor {
+    background-color: rgb(17, 17, 42);
+    color: rgba(255, 255, 255, .3);
+    border-top: 2px solid rgb(33, 66, 146);
+}
+
+.frontColor {
+    background-color: rgb(31, 31, 65);
+    color: white;
+    border-top: 2px solid rgb(255, 155, 0);
+}
+
+.entreColor {
+    background-color: rgb(7, 7, 32);
+}

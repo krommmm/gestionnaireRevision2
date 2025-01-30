@@ -1,0 +1,175 @@
+.cemetary {
+    width: 650px;
+    color: white;
+    margin-top: 31px;
+}
+
+/***cemetary__header***/
+.cemetary__header {
+    display: flex;
+    align-items: center;
+    background-color: #191937;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.cemetary__header__page {
+    color: rgb(255, 155, 0);
+    background-color: rgb(59, 44, 46);
+    text-decoration: underline;
+    font-size: 24px;
+    padding: 6px 18px;
+    border-radius: 7px;
+}
+
+.cemetary__header__img {
+    position: relative;
+    margin: 0px 15px;
+}
+
+.cemetary__header__img--container {
+    border: 2px solid gold;
+    border-radius: 3px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cemetary__header__img--img {
+    width: 58px;
+    border: 1px solid black;
+}
+
+.cemetary__header__img--length {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    z-index: 800;
+    border: 1px solid gold;
+    border-radius: 3px;
+    background-color: #070720;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 5px;
+}
+
+.cemetary__header__text--title {
+    font-size: 29px;
+    font-weight: 600;
+}
+
+/***cemetary__body***/
+.cemetary__body {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #191937;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.cemetary__body__categories {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cemetary__body__categories table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cemetary__body__categories table thead th {
+    padding: 20px 0px;
+    color: rgb(205, 200, 190);
+}
+
+.cemetary__body__categories table td {
+    text-align: center;
+    padding: 11px 0px;
+}
+
+.cemetary__body__categories img {
+    width: 25px;
+    height: 25px;
+}
+
+.cemetary__body__categories td {
+    color: white;
+}
+
+.cemetary__body__categories .tdName {
+    color: gold;
+}
+
+.cemetary__body__categories .tdStep {
+    font-weight: 600;
+}
+
+.tableFront {
+    background-color: #191937;
+    ;
+}
+
+.tableBack {
+    background-color: #070720;
+}
+
+.tableIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.tableIcons i {
+    margin: 10px;
+    cursor: pointer;
+}
+
+/***Pagination***/
+.cemetary__body__pagination {
+    margin-top: 50px;
+}
+
+.cemetary__body__pagination__container {
+    display: flex;
+}
+.cemetary__body__pagination__container--numeros{
+    display:flex;
+}
+
+.cemetary__body__pagination__container--square {
+    padding: 12px;
+    border: 1px solid rgb(232, 229, 220);
+    border-radius: 5px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    transition: .5s;
+    color: rgb(33, 32, 31);
+    background-color: rgba(254, 251, 240);
+    font-family: system-ui;
+}
+
+.pageSelected {
+    border: 1px solid rgb(140, 138, 133);
+    font-size: 14px;
+}
+
+.cemetary__body__pagination__container--square:hover {
+    background-color: #e7e6e3;
+}
+
+.agenda__container__main__cards__li p {
+    word-break: break-all;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+.cemetary__body__pagination__container a{
+    text-decoration:none;
+}

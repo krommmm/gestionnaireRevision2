@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: #070720;
+}
+
+.wrapper {
+  display: flex;
+  position:relative;
+  margin-top:50px;
+}
+
+#root{
+  width: 669px;
+  margin-left: 15px;
+}

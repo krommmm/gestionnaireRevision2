@@ -1,0 +1,27 @@
+.infoSupp {
+    width: 250px;
+    height: fit-content;
+    padding: 20px;
+    color: white;
+    border-top: 24px solid rgb(25, 25, 55);
+    background-color: rgb(13, 13, 40);
+    border-radius: 5px;
+}
+
+/******** IMG *********/
+.infoSupp__img {
+    width: 100%;
+}
+
+.infoSupp__img img {
+    width: 200px;
+}
+
+/********* TEXT **********/
+.infoSupp__main--title {
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+.infoSupp__main--description {
+    margin: 15px 0px;
+}
