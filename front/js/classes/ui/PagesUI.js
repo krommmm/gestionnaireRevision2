@@ -37,32 +37,27 @@ export class PagesUI {
     }
 
     displayAgenda(weekRangeDateAndCards) {
-        const agenda = document.createElement("div");
-        agenda.className = "agenda";
 
-        const agenda__container = document.createElement("section");
-        agenda__container.className = "agenda__container fondColor";
+        const agenda = this.createElem("div", "agenda");
+        const agenda__container = this.createElem("section", "agenda__container fondColor");
 
-        const agenda__container__header = document.createElement("div");
-        agenda__container__header.className = "agenda__container__header entreColor";
 
+        const agenda__container__header = this.createElem("div", "agenda__container__header entreColor");
         const days = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"];
 
         for (let i = 0; i < 7; i++) {
             const day = document.createElement("div");
             day.className = `agenda__container__header__day ${days[i]} ${weekRangeDateAndCards[i].isCurrentDay ? "frontColor" : "backColor"}`;
-            const dayName = document.createElement("p");
-            dayName.className = "agenda__container__header__day--day";
+
+            const dayName = this.createElem("p", "agenda__container__header__day--day");
             dayName.textContent = days[i];
             day.appendChild(dayName);
 
-            const date = document.createElement("span");
-            date.className = "date";
+            const date = this.createElem("span", "date");
             date.textContent = weekRangeDateAndCards[i].date[0];
             day.appendChild(date);
 
-            const cardsLength = document.createElement("span");
-            cardsLength.className = "cardsLength";
+            const cardsLength = this.createElem("span", "cardsLength");
             cardsLength.textContent = weekRangeDateAndCards[i].cards.length;
             if (weekRangeDateAndCards[i].cards.length > 0) {
                 day.appendChild(cardsLength);
@@ -71,15 +66,11 @@ export class PagesUI {
             agenda__container__header.appendChild(day);
         }
 
-
-        const agenda__container__main = document.createElement("div");
-        agenda__container__main.className = "agenda__container__main";
-        const ul = document.createElement("ul");
-        ul.className = "agenda__container__main__cards";
-
+        const agenda__container__main = this.createElem("div", "agenda__container__main");
+        const ul = this.createElem("ul", "agenda__container__main__cards");
         agenda__container__main.appendChild(ul);
-        const btn = document.createElement("button");
-        btn.className = "btn-blue btn-addCard";
+
+        const btn = this.createElem("button", "btn-blue btn-addCard");
         btn.textContent = "Add card";
         agenda__container__main.appendChild(btn);
 
@@ -100,14 +91,11 @@ export class PagesUI {
         ulContainer.innerHTML = "";
 
         for (let i = 0; i < cards.length; i++) {
-            const li = document.createElement("li");
-            li.className = "agenda__container__main__cards__li";
+            const li = this.createElem("li", "agenda__container__main__cards__li");
             li.setAttribute("data-id", cards[i].id);
-            const img = document.createElement("img");
-            img.className = "agenda__container__main__cards__img"
+            const img = this.createElem("img", "agenda__container__main__cards__img");
             img.src = `./assets/pictures/icons/${cards[i].matiere}.png`;
-            const para = document.createElement("p");
-            para.className = "agenda__container__main__cards__para";
+            const para = this.createElem("p", "agenda__container__main__cards__para");
             para.textContent = cards[i].cardName;
             li.appendChild(img);
             li.appendChild(para);
