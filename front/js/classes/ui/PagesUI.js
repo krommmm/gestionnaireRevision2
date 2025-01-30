@@ -158,7 +158,7 @@ export class PagesUI {
 
         const cemetary__header__imgImg = document.createElement("img");
         cemetary__header__imgImg.className = "cemetary__header__img--img";
-        cemetary__header__imgImg.src = "/front/assets/pictures/others/poro_christmass.webp";
+        cemetary__header__imgImg.src = "./assets/pictures/others/poro_christmass.webp";
 
         const imgLength = document.createElement("p");
         imgLength.className = "cemetary__header__img--length";
@@ -219,7 +219,7 @@ export class PagesUI {
 
             const tdImg = document.createElement("td");
             const img = document.createElement("img");
-            img.src = `/front/assets/pictures/icons/${ghostsCards[i].matiere}.png`;
+            img.src = `./assets/pictures/icons/${ghostsCards[i].matiere}.png`;
             tdImg.appendChild(img);
             tr.appendChild(tdImg);
 
