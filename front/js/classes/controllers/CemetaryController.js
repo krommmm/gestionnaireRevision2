@@ -1,8 +1,7 @@
 import { BaseController } from "./BaseController.js";
 
-export class CemetaryController extends BaseController {
+export class CemetaryController {
     constructor(pagesUI, mCards, mDate, uiCards, uiModal, mModal, mAgenda) {
-        super();
         this.pagesUI = pagesUI;
         this.mCards = mCards;
         this.mDate = mDate;
