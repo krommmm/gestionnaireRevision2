@@ -16,6 +16,7 @@ export class MCards {
 
 
     addCard(card) {
+        if (card.cardName === "undefined" || card.cardName === null || card.cardName === "") return;
         const currentDate = new Date();
         const dateDMY = this.mDate.getDateInDMY(currentDate);
         card.date = dateDMY;
