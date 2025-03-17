@@ -12,14 +12,12 @@
 }
 
 .btn-blue {
-    background-color: rgb(50, 115, 250);
-    border: none;
-    padding: 15px;
-    color: white;
-    font-weight: 600;
-    border-radius: 3px;
     cursor: pointer;
-    padding: 15px 15px;
+    background-color: #4567b7;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
     margin: 15px;
     height: fit-content;
 }

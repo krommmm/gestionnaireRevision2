@@ -3,7 +3,7 @@ header {
 }
 
 #formSearchBar {
-    position: relative;
+display:flex;
 }
 
 #formSearchBar input {
@@ -38,9 +38,19 @@ input:focus {
     cursor: pointer;
     position: absolute;
     top: 9px;
-    right: 51px;
+    right: 11px;
 }
 .magicStorage{
     margin-left: 15px;
     cursor:pointer;
+    cursor: pointer;
+  background-color: #4567b7;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  color: white;
+}
+
+.formInputContainer {
+    position: relative;
 }
