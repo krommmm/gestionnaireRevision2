@@ -45,8 +45,11 @@
     width: 197px;
   }
 
-  body .agenda__container__header__day .date {
+  body .agenda__container__header__day--day {
     display: none;
+  }
+  body .agenda__container__header__day {
+    width: 40px;
   }
 
   body .modal {
